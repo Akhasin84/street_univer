@@ -1,0 +1,206 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: 'Muli', sans-serif;
+	background-color: #eee;
+}
+
+a{
+	text-decoration: none;
+}
+
+p{
+	color: black;
+	font-family: 'Geo', sans-serif;
+	font-size: 17px;
+	line-height: 28px;
+}
+
+.header{
+	display: flex;
+	flex-wrap: wrap;
+	background-image: url(images/background.png);
+	background-position: center;
+	background-size: cover;
+	justify-content: space-between;
+	padding-top: 11%;
+	padding-bottom: 20%;
+	position: relative;
+}
+
+.logo{
+	display: block;
+	width: 266px;
+	height: 128px;
+	background-image: url(images/logoback.png);
+	color: white;
+	font-size: 28px;
+	font-weight: 400;
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 10px;
+	position: absolute;
+	top: 0px;
+	left: 120px;
+}
+
+.menuWrap{
+	background-color: white;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	box-shadow: 0px 6px 5px 1px rgba(125,125,128,1);
+}
+
+.menuBorder{
+	display: flex;
+	flex-wrap: wrap;
+	border-top: 2px solid #101010;
+	border-bottom: 2px solid #101010;
+	padding: 10px 10%;
+	justify-content: space-around;
+}
+
+.menuBorder a{
+	color: black;
+	font-size: 36px;
+	text-transform: uppercase;
+
+}
+
+.menuBorder a.active,
+.menuBorder a:hover{
+	text-decoration: underline;
+
+}
+
+.contentPart{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 30px 30px 340px;
+	/*justify-content: space-between; ?????????*/
+
+}
+
+.sideBlocks{
+	background-color: #d7d7d7;
+	padding: 21px;
+	flex-basis: 330px; /*?????????*/
+}
+
+.sideBlocksBorder{
+	border: 1px solid #fff;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: space-around;
+	padding: 65px 70px 60px;
+	text-align: center;
+	position: relative;
+}
+
+.headStamp{
+	width: 152px;
+	height: 42px;
+	background-color: #6b6b6b;
+	padding-top: 10px;
+	position: absolute;
+	top: -21px;
+	/*left: 25%;*/
+}
+
+.headStamp h3{
+	color: white;
+	font-size: 18px;
+	text-transform: uppercase;
+	margin: 0px;
+}
+
+.sideBlocks a{
+	color: black;
+	font-size: 16px;
+	line-height: 43px;
+	text-transform: uppercase;
+}
+
+.contentMain{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	flex-basis: 0px;
+	flex-grow: 1; /*?????????*/
+	padding-left: 40px;
+	padding-right: 40px;
+
+}
+
+.navBar{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;	
+}
+
+.navBar a{
+	color: black;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+h1{
+	margin: 0;
+	color: black;
+	font-size: 35px;
+	text-transform: uppercase;
+}
+
+h2{
+	margin-top: 75px;
+	color: black;
+	font-size: 29px;
+}
+
+.textNotes{
+	margin: 40px 15% auto;
+	border-top: 1px solid #cecece;
+	padding: 53px 50px 0px;
+}
+
+.textNotes span{
+	font-size: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
